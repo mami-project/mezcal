@@ -1,0 +1,1 @@
+hellfire --topsites --canid localhost:8043 > targets.ndjson
