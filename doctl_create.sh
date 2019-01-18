@@ -10,7 +10,7 @@ doctl compute droplet create ${INSTANCE}\
 sleep 30
 
 DROPLET_IP4=`doctl compute droplet list ${INSTANCE} --format PublicIPv4 | tail -1`
-echo ${INSTANXCE} in ${DROPLET_REGION} is at ${DROPLET_IP4}
+echo ${INSTANCE} in ${DROPLET_REGION} is at ${DROPLET_IP4}
 
 echo digitalocean-${DROPLET_REGION} > vantage
 touch pto-apikey
