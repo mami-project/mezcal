@@ -8,7 +8,7 @@ if [ ! -f ${BASEFILE} ]; then
    exit 1
 fi
 
-METAFILE=${BASEFILE}.meta.ndjson
+METAFILE=${BASEFILE}.meta.json
 if [ ! -f ${METAFILE} ]; then
    echo metadata file ${METAFILE} missing
    exit 1
